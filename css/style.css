@@ -6,7 +6,12 @@
 body{
     background-image: radial-gradient(#F8D84D, #3D5781);
 }
-
+#message {
+    color: #F8D84D;
+}
+#videoMessage {
+    color: #F8D84D;
+}
 
 #video {
     width: 450px;

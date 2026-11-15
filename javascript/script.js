@@ -50,44 +50,43 @@ function stopAudio() {
 }
 
 function updateMessage() {
-    message.innerHTML = "time: " + audio.currentTime;
+    message.innerHTML = "Time: " + audio.currentTime;
     message.innerHTML += "<br>";
-    message.innerHTML += "volume: " + audio.volume;
+    message.innerHTML += "Volume: " + audio.volume;
 }
-
 
 let video = document.getElementById("video");
 let videoMessage = document.getElementById ("videoMessage");
 
-let playVideo = document.getElementById ("playVideo");
-let pauseVideo = document.getElementsByClassName ("pauseVideo");
-let StopVideo = document.getElementById ("StopVideo");
+let playVid = document.getElementById ("playVideo");
+let pauseVid = document.getElementById ("pauseVideo");
+let StopVid = document.getElementById ("StopVideo");
 
-playVideo.addEventListener("click", playVideo);
-pauseVideo.addEventListener("click", pauseVideo);
-StopVideo.addEventListener("click", StopVideo);
+playVid.addEventListener ("click", playVideo);
+pauseVid.addEventListener ("click", pauseVideo);
+StopVid.addEventListener ("click", StopVideo);
 
-function playVideo() {
+function playVideo () {
     video.play();
     updatevideoMessage();
 }
 
-function pauseVideo() {
+function pauseVideo () {
     video.pause();
     updatevideoMessage();
 }
 
-function StopVideo() {
+function StopVideo () {
     video.currentTime = 0;
-    video.pause();
+    video.pause()
     updatevideoMessage();
 }
 
-function updatevideoMessage() {
-    message.innerHTML = "time: " + video.currentTime;
+function updatevideoMessage () {
+    videoMessage.innerHTML = "Time: " + video.currentTime;
+    videoMessage.innerHTML += "<br>";
+    videoMessage.innerHTML += "Volume: " + video.volume;
 }
-
-
 
 let change1 = document.getElementById ("changeImage1");
 let change2 = document.getElementById ("changeImage2");
