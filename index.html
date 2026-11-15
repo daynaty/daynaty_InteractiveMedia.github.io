@@ -7,16 +7,43 @@
     </head>
     <body>
         <h1>Sounds of paradise</h1>
+
         <audio controls loop id="audio">
-            <source src="audio/404686__norwayjoanna__ocean-crete-2.wav" type="audio/wav"/>
+            <source src="audio/744298__teamenfil__tropical-birds-202406.wav" type="audio/wav"/>
             This browser does not support audio.
         </audio>
+        <p id="message"></p>
         <button id="play">Play</button>
         <button id="pause">Pause</button>
         <button id="Stop">Stop</button>
-        <br>
+        <br> <br>
         <button id="VolUp">Volume Up</button>
         <button id="VolDn">Volume Down</button>
+
+        <h1> Seeing the sights</h1>
+
+        <video id="video" controls> <source src="videos/14516453_3840_2160_30fps.mp4" type="video/mp4"/>This  browser does not support video.</video>
+        <p id="videoMessage"></p>
+        <button id="playVideo">Play</button>
+        <button id="pauseVideo">Pause</button>
+        <button id="StopVideo">Stop</button>
+        <br><br>
+        
+        <h2>Click the button below to change the images!</h2>
+        <div id="images">
+            <div>
+                <img src="images/IMG_2661.jpeg" id="toChange1" width="480"></img>
+                <br><br>
+                <button id="changeImage1">Click here</button>
+                <br> <br>
+            </div>
+            <div>
+                <img src="images/IMG_2801.jpeg" id="toChange2" width="480"></img>
+                <br><br>
+                <button id="changeImage2">Click here</button>
+            </div>
+        </div>
         <script src="/javascript/script.js"></script>
     </body>
 </html>
+

@@ -1,0 +1,35 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    background-image: radial-gradient(#F8D84D, #3D5781);
+}
+
+
+#video {
+    width: 450px;
+    height: 250px;
+}
+button{ 
+    color: #3D5781;
+    background-color: #F8D84D;
+    margin: 5px;
+    padding: 7px;
+    border: black;
+    border-radius: 7px;
+}
+h1{
+    color: #F8D84D;
+}
+
+h2{
+    color: #3D5781;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+}
+
