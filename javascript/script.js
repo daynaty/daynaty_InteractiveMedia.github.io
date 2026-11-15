@@ -84,8 +84,6 @@ function StopVideo () {
 
 function updatevideoMessage () {
     videoMessage.innerHTML = "Time: " + video.currentTime;
-    videoMessage.innerHTML += "<br>";
-    videoMessage.innerHTML += "Volume: " + video.volume;
 }
 
 let change1 = document.getElementById ("changeImage1");
